@@ -18,8 +18,8 @@ public class Login_Stepdefination extends Base_Page {
         Driver.getDriver().get("https://the-internet.herokuapp.com/login");
     }
 
-    @When("provides  vaild username and password")
-    public void provides_vaild_username_and_password() {
+    @When("provides  valid username and password")
+    public void provides_valid_username_and_password() {
         // Write code here that turns the phrase above into concrete actions
         String usernameValue= ConfigurationReader.getProperties("username");
         String passwordValue = ConfigurationReader.getProperties("password");
@@ -35,5 +35,6 @@ public class Login_Stepdefination extends Base_Page {
         Assert.assertEquals(actualMessage,expectedmessage);
 
     }
+
 
 }

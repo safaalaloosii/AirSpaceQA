@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-08-01T01:47:00.393Z",
+        "start_timestamp": "2021-08-01T02:29:17.806Z",
         "line": 3,
         "name": "As a user, I should be able to Login using vaild username and password",
         "description": "",
@@ -22,7 +22,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "skipped"
             },
             "line": 5,
